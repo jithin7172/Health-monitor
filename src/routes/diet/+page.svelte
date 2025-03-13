@@ -106,7 +106,7 @@
       }
     } catch (error) {
       console.error("Error checking user credentials:", error);
-      goto('/Creds');
+      goto('/creds');
     }
   }
 
